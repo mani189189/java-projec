@@ -1,4 +1,4 @@
-pipeline {
+ipipeline {
         agent any
 
 
@@ -19,11 +19,10 @@ echo 'Building..'
 }
 }
 }
-
 post {
-	always {
-        
+        always {
+
           archiveArtifacts artifacts: 'dist/*.jar', fingerprint: true
         }
       }
-    
+    }
