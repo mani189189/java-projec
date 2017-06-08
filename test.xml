@@ -1,5 +1,0 @@
-<path id="class.path">
-<pathelement location="./lib/junit-4.10.jar" />
-    <pathelement location="${build.dir}" />
-  </path>
-
